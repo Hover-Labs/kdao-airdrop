@@ -10,7 +10,7 @@ flatten = lambda t: [item for sublist in t for item in sublist]
 
 requested_preferred_addresses = [
     'tz1fL2TsQR271w84MXx3qFD7y4PZ1F2mpHFA',  # Cluster 23, requested via Discord
-    'tz1cZg2dY1NZka5vJfcACh8owd9Pt5E28pNP',  # Cluster 9/10, requested via Discrod
+    'tz1cZg2dY1NZka5vJfcACh8owd9Pt5E28pNP',  # Cluster 9/10, requested via Discord
 ]
 
 def fetch_category(url, name):
