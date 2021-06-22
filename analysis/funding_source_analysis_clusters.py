@@ -127,7 +127,7 @@ funding_source_analysis_clusters = {
     "tz1KsiwkQ9pyrt4Ra7QrAQp5LQJCGxHQrY1n",
     "tz1NhuLdEpkZ89o7L2jsPCwkwdkQMmvdsGBx",
     "tz1NQPH1iWvxhz24mt4Txq8U5WxFrJmPgaT9",
-  "tz2NyhuiiC5Yyg1tDqM4GvCyuRFu4JHMHiYf",
+    "tz2NyhuiiC5Yyg1tDqM4GvCyuRFu4JHMHiYf",
     "tz1PFaBHa9eipGtv14rHMG7QCkZMGmXEwLcS",
     "tz1cUayLoh54cuEGG5C5XJnrftdY4o1imVFR",
   },

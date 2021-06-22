@@ -1,11 +1,20 @@
 xtz_analysis_clusters = {
   "cluster_1": {
+    "tz1aXJbVA8vUwi7r91ggPhgqFqaqY8isLQBW",
+    "tz1ez5hc7wfNKrZ65vVRyC6JBBxZF6UYX3aD",
+    "tz1L2TFnPgsPZCLCetAa63u9CBvEuNVjx5Qg",
+    "tz1PRaAwb6vNptpULnb6QiQv2zQTc7SU6Hzf",
+    "tz1RmPNzio2JFSecq8W1bohHsRFxetW3WTsF",
+    "tz1WKrHsuJfc3yuJBPskxxFgcTxDcRwBFPtg",
+    "tz2ALu8Jxf2SMgzSZaZEwfiJQbogpUDPStwz",
+  },
+  "cluster_2": {
     "tz1cmanHzitf3UgWgECzLpGUKpzEfmGZaFsw",
     "tz1KhU89QWZuuhhnDD1paFp1jYMdpJLh55im",
     "tz1MyqKoe43P4Z8MfHoXVBTrohgcbehp2zLL",
     "tz1Rux3pGrp2KpZUBKvg3VQ4edRYVJsapr4z",
   },
-  "cluster_2": {
+  "cluster_3": {
     "tz1agwxv1npTpnBZLGYg8kELfjMGjkySdKtC",
     "tz1bBkoYeN1KLDWAYQDRT7UZQfSJem22J5SF",
     "tz1c8VBNqenRB8xxzNE5iWr8Q4Zh5KKHgMMQ",
@@ -19,14 +28,14 @@ xtz_analysis_clusters = {
     "tz1SCbAeg7gjotfXcNh38hCWGpmQbSb6NwmQ",
     "tz1VV5912Qp7qqZaQ28MC2G3RQ89UhEdueqt",
   },
-  "cluster_3": {
+  "cluster_4": {
     "tz1NpaSh5FzvsqVCEcLDtfexYyYELz9ys1m7",
     "tz1aCHzduykNyX5zLbJwnweezcNfAaWP7zYd",
     "tz1hZCTBEN9dLET5m7wRLonrNSocjaCtuCUo",
     "tz1XtUUtbTJqhqbLSNVb4MaazY8mzdNgzZkM",
     "tz1WUBEpxdhAt6S7Uyzrkx4gDVYH6nBiTNai",
   },
-  "cluster_4": {
+  "cluster_5": {
     "tz1aNkb3p9Zcu9FTxyEU9HzAi5fFzSDRfLC3",
     "tz1aZsnuNAcKKGevP2QYDMUAj2n4EMh4gziy",
     "tz1bDxsuUubL5dgYK351dZuyJN13RVErGu5c",
@@ -78,7 +87,7 @@ xtz_analysis_clusters = {
     "tz1XUCMAcjkUKnxyebTFLrgo1DDwZdhwpmK4",
     "tz1ZCur1tFazP59WXLEfwwajEgjsdeJ6hD25",
   },
-  "cluster_5": {
+  "cluster_6": {
     "tz1dqTasQcSSEK1UKJG9ifu81VyPnKzdV33T",
     "tz1f38MX7YT2Q7MAq3mDdj75GTN7vgqV2TfH",
     "tz1f4g2RKJkvQ47MDBDpe11UnNo3iGBFmuHM",
@@ -97,13 +106,13 @@ xtz_analysis_clusters = {
     "tz1Tq5XNVx1SKkwQL1PVQWJ7vKu7s7WHMtCq",
     "tz1VG93T7617XZntLyyo2KzoZs2cK69GrABm",
   },
-  "cluster_6": {
+  "cluster_7": {
     "tz1bpz9S6JyBzMvJ97qPL7TeejkUiLjdkDAm",
     "tz1eee5rapGDbq2bcZYTQwNbrkB4jVSQSSHx",
     "tz1Pbq5gbBhZGn7BsyTt33HAPGtDFDx2unne",
     "tz1PuUhbXZdYGp1bWpz9tb5p4pg75H5Uswd7",
   },
-  "cluster_7": {
+  "cluster_8": {
     "tz1cSMrgBZXdv63TYyHQb9UBJWueBXYqfA4V",
     "tz1gDpbgZLmPffFfv5VEBELgsoPKK1m769Wd",
     "tz1MrV4csD1ZjQ8gYyHFkyWt3fVwBknr47hs",
@@ -113,7 +122,7 @@ xtz_analysis_clusters = {
     "tz1YtUbTURpWeX1CzHFamxS7fGdaKwKKgMzq",
     "tz1ZD5nQNtzgTzZxHgxgFuGo9CNBuGJHVRXu",
   },
-  "cluster_8": {
+  "cluster_9": {
     "tz1bAnyngBRVCiBueEJoEGoGYo4vPauBXm8L",
     "tz1bji6yFvM1knLzj9WAP1kRaKewJiXVQSmD",
     "tz1cGmXoj3UNq5kRB3B1QLBSTvNGoC9rGQqd",
@@ -138,7 +147,7 @@ xtz_analysis_clusters = {
     "tz1YRHx4n7qM5Gdo1Zswz1fuudFoxwFL5iBW",
     "tz1ZrL3FSmZz4PH57jQh8HCgFnPDmbDtzVBc",
   },
-  "cluster_9": {
+  "cluster_10": {
     "tz1bjTaXURxeCucaPiCvRB7F9LouyUqdvn99",
     "tz1cZg2dY1NZka5vJfcACh8owd9Pt5E28pNP",
     "tz1T4uFy6cRbKVrpoSJsW6AY53odBvKBw1ZS",
@@ -147,7 +156,7 @@ xtz_analysis_clusters = {
     "tz1Y7PDJ58r8AEKqd1G87azjdi19uMTB51G",
     "tz1Z2mQP5Vr9cTK96ijTArTxcvyvNwYdzRBK",
   },
-  "cluster_10": {
+  "cluster_11": {
     "tz1dKuipgWszbTRD8hE5ar2YSDFTAFoy1yRc",
     "tz1f77N6P9gvXWLWxzSVUVUQHUAHxY2usKDZ",
     "tz1Lf9TbhWKGiUvQiRtgcQsBSUpki3wq64p7",
@@ -160,7 +169,7 @@ xtz_analysis_clusters = {
     "tz1XMz2AoRGwy6WFPZJ7kLTsU3gcErYaT2RM",
     "tz1YtK9qUJffq2SqjhaJEGbufVHEBWDLPrSV",
   },
-  "cluster_11": {
+  "cluster_12": {
     "tz1bA7aVbV7SpBfr3FExkrTMt8woAdh1zZDJ",
     "tz1eFr1ihFJSV6mVKUNRgwUKJ2X6fp21KRQ1",
     "tz1gt6ik25GbE2ZTwHRbVzvXgxP46fGizSFh",
@@ -172,7 +181,7 @@ xtz_analysis_clusters = {
     "tz1W6NhAyy8anAmcGbkb278v1L8FJDHYDuba",
     "tz1WpPtMbCyybpvw4eGWdj1wZqeRoxQyTWWm",
   },
-  "cluster_12": {
+  "cluster_13": {
     "tz1bxpnJwhqrdhf5Dmsp8QusjL9zN4qbDCWs",
     "tz1ceVRLF5yAKvGcFXu2ngFtqXbqkKd1kAZe",
     "tz1cVcDkvek2UNAo8ihaycH6GqEZknuxjz9L",
@@ -184,7 +193,7 @@ xtz_analysis_clusters = {
     "tz1Z4eLXZquq6x1kMujWqCN3eQbTzwkMb5A6",
     "tz1Z6ikQVtLws398W5w6qMLQ7pjv8eEutu9u",
   },
-  "cluster_13": {
+  "cluster_14": {
     "tz1eM8EAJnBT4uNdGSwVkJh9ABfLVoYQ2mDC",
     "tz1fF85zv4Quw887h618ZzEZMyi5yg6aXaWe",
     "tz1i6YJszLqdd951QWxegcJqRYhuQzm9aQei",
@@ -192,7 +201,7 @@ xtz_analysis_clusters = {
     "tz1QdTE9vJieWqSuJCh1hKWnWZKqabNBrxR2",
     "tz1WZCY2TQfJKJ4Mj84dWGE5AKFtqgZbgQGM",
   },
-  "cluster_14": {
+  "cluster_15": {
     "tz1e34cyK8Ppa1Sw4WbwMJG6fECUsh9ifbDh",
     "tz1e4veqK6tHyApLHvn3vsPo7hgaKPm86Vxk",
     "tz1fQ8BJiGCqHZRo7HPsZnXLdVGxBZQm8vMV",
@@ -201,7 +210,7 @@ xtz_analysis_clusters = {
     "tz1NiSid2cdWm6sqSip79LXZywkQDLxiAhcu",
     "tz1UjR1hQ74Yo7RnuJE1rd5BZ172ktKtCc4Q",
   },
-  "cluster_15": {
+  "cluster_16": {
     "tz1dCyFm9jxuhxJEi8UW5sgiS7TFubaNT1J7",
     "tz1fn1T57h9icKEeG97XtymQ2AJjVY56p9oN",
     "tz1NCsGajb5YgZdhdviKrfisN3VteMasnzQi",
