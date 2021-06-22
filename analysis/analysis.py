@@ -1,3 +1,5 @@
+from collections import defaultdict
+
 import requests
 import csv
 from io import StringIO
@@ -5,6 +7,11 @@ from xtz_analysis_clusters import xtz_analysis_clusters
 from funding_source_analysis_clusters import funding_source_analysis_clusters
 
 flatten = lambda t: [item for sublist in t for item in sublist]
+
+requested_preferred_addresses = [
+    'tz1fL2TsQR271w84MXx3qFD7y4PZ1F2mpHFA',  # Cluster 23, requested via Discord
+    'tz1cZg2dY1NZka5vJfcACh8owd9Pt5E28pNP',  # Cluster 9/10, requested via Discrod
+]
 
 def fetch_category(url, name):
     print("Fetching {}".format(name))
@@ -53,16 +60,27 @@ for funding_analysis_cluster, funding_analysis_addresses in funding_source_analy
 blacklist = set()
 airdrop_replacements = {}
 for cluster_name, cluster_addreses in final_clusters.items():
-    sorted_addresses = sorted(cluster_addreses, key=str.casefold)
-    to_be_airdropped, to_be_blacklisted = sorted_addresses[0], set(sorted_addresses[1:])
-    blacklist = blacklist.union(to_be_blacklisted)
-
     cluster_activities = set()
+
+    cluster_activity_map = defaultdict(list)
 
     for activity, collection in datasets.items():
         for address in cluster_addreses:
             if address in collection:
+                cluster_activity_map[address].append(activity)
                 cluster_activities.add(activity)
+
+    sorted_addresses = sorted(cluster_activity_map, key=lambda k: len(cluster_activity_map[k]), reverse=True)
+
+    # If we have a preferred address to override
+    preferred_address = next((address for address in cluster_addreses if address in requested_preferred_addresses), None)
+    if preferred_address is not None:
+        to_be_airdropped = preferred_address
+        to_be_blacklisted = set(sorted_addresses) - set([preferred_address])
+    else:
+        to_be_airdropped, to_be_blacklisted = sorted_addresses[0], set(sorted_addresses[1:])
+
+    blacklist = blacklist.union(to_be_blacklisted)
 
     airdrop_replacements[to_be_airdropped] = len(cluster_activities)
 
