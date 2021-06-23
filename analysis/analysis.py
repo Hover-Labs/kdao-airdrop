@@ -1,4 +1,5 @@
 from collections import defaultdict
+from decimal import Decimal
 
 import requests
 import csv
@@ -113,14 +114,20 @@ total_points = sum(point_totals.values())
 # 150,000 kDAO earmarked for the airdrop
 TOKEN_ALLOCATION = 150_000
 
-split_per_point = TOKEN_ALLOCATION / total_points
+split_per_point = Decimal(TOKEN_ALLOCATION) / Decimal(total_points)
 
-print('New point allocation per address {}'.format(split_per_point))
+print('New point allocation per address {:.18f}'.format(split_per_point))
+
+all_points = []
 
 csv_header = ['address, token_allocation']
 csv_data = []
 for address, points in point_totals.items():
-    csv_data += ["{}, {}".format(address, points * split_per_point)]
+    allocated_points = points * split_per_point
+    all_points.append(allocated_points)
+    csv_data += ["{}, {:.18f}".format(address, allocated_points)]
+
+assert 149_999 < sum(all_points) < 150_000, "Airdrop numbers seem off!"
 
 with open('airdrop-data.csv', 'w') as f:
     f.write('\n'.join(csv_header + sorted(csv_data, key=str.casefold)))
