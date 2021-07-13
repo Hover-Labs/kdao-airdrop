@@ -139,20 +139,6 @@ funding_source_analysis_clusters = {
     "tz1MrV4csD1ZjQ8gYyHFkyWt3fVwBknr47hs",
     "tz1RZPb7kVHRih6Sg8cwaBveXSiMRjx9DkTY",
   },
-  "cluster_15": {
-    "tz1f94uZ7SF2fLKnMjFzGQTbznd8qpAZ12is",
-    "tz1QSbd179w1Xp9WTaCwcBt4xxvBpZEtxbxJ",
-    "tz1ae2d1BJt7YUqaaec6Xenh3mBqS7VjSZtK",
-  "tz2MBb5FxZXzhBuAPmY9z4zYTF8NeWPEkiV4",
-    "tz1PkqVGKryU2RgCh3ch2dfSMMwq9wpbuCvx",
-    "tz1NrxttoDXh3sKPRAv96KWy7JoJoHtaHKzW",
-  "tz2VSx3fkM16vtvQDy5FeFiLc6jvr9skNupG",
-    "tz1TrxaPKNsRpcgw58155HdX6USrpV2fERQm",
-    "tz1WW1xr4mdTif7jorgVr7aqY3YnnJPSDXj7",
-    "tz1cka4k5jrVz6eduybGy2Wb3v5NuXA8uWqu",
-    "tz1TryFDNby2e4T77HhTbgThrpqLM2G6KGdK",
-    "tz1aDw7CX1HBcyGqbrctgPwtH8FcRvNMPMXE",
-  },
   "cluster_16": {
     "tz1bzr2ZpR7oiyUQys7uiMDRptFF5dDs3XtN",
     "tz1ZxzVg9QCSWncweFpLASiWQGd6xHAGDK8V",
@@ -227,11 +213,6 @@ funding_source_analysis_clusters = {
     "tz1YR54HSBk6CD5G2Wtvtco7jBsufUHcF3XK",
     "tz1ZdiZutwwsY8fzeB9YouqSwym4mcCzkmRE",
     "tz1ZgrzwpwN1qyD84wgRc6CbNCo7aamKhpCv",
-  },
-  "cluster_23": {
-    "tz1aD4DmnnGyqxL7neCZ5JMQ6UnpcrKCpajE",
-    "tz1fL2TsQR271w84MXx3qFD7y4PZ1F2mpHFA",
-    "tz1RSRuULmTkaXTjrhbFuNkE4mkJLRGPWJmy",
   },
   "cluster_24": {
     "tz1YkVzUhf7YB9Dpfac1JCbqpxkxXrotQJeM",

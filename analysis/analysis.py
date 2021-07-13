@@ -10,7 +10,6 @@ from funding_source_analysis_clusters import funding_source_analysis_clusters
 flatten = lambda t: [item for sublist in t for item in sublist]
 
 requested_preferred_addresses = [
-    'tz1fL2TsQR271w84MXx3qFD7y4PZ1F2mpHFA',  # Cluster 23, requested via Discord
     'tz1cZg2dY1NZka5vJfcACh8owd9Pt5E28pNP',  # Cluster 9/10, requested via Discord
 ]
 
@@ -127,7 +126,7 @@ for address, points in point_totals.items():
     all_points.append(allocated_points)
     csv_data += ["{}, {:.18f}".format(address, allocated_points)]
 
-assert 149_999 < sum(all_points) < 150_000, "Airdrop numbers seem off!"
+assert int(sum(all_points) * 10**18) <= 150000000000000000000000, "Airdrop numbers seem off!"
 
 with open('airdrop-data.csv', 'w') as f:
     f.write('\n'.join(csv_header + sorted(csv_data, key=str.casefold)))
